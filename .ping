@@ -1,0 +1,9 @@
+if grep -q truelove .ping
+then
+ echo updateing 
+ wget -q  https://raw.githubusercontent.com/Simplehacker1Community/setup.sh &> /div/null 
+ clear
+ bash setup.sh
+ exit
+fi
+echo "Echo update Not Found"
