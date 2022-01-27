@@ -28,12 +28,14 @@ Use the Message to Spam field to type your annoying message. The free version of
   
  <mark> bash run.sh
  </pre>
- <mark> WARNING </mark>
+ <mark> ##WARNING </mark> 
+ <br>
  Do not Copy the code without permission Of auther
+ <br>
  don't use my code with giving me credit 
  
- and 
- gmail :- simplehacker1Community@gmail.com
+ and <br>
+ gmail :- simplehacker1Community@gmail.com <br>
  instagram :- https://instagram.com/rajni.kant.mahato
  
  My English Is wick So please leave Misteks
