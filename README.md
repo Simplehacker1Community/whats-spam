@@ -27,4 +27,13 @@ Use the Message to Spam field to type your annoying message. The free version of
  runing commonds
   
  <mark> bash run.sh
+ </pre>
+ <mark> WARNING </mark>
+ Do not Copy the code without permission Of auther
+ don't use my code with giving me credit 
  
+ and 
+ gmail :- simplehacker1Community@gmail.com
+ instagram :- https://instagram.com/rajni.kant.mahato
+ 
+ My English Is wick So please leave Misteks
