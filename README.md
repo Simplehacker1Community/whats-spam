@@ -16,7 +16,7 @@ WhatsApp spam is becoming an issue. Here's how to spot WhatsApp dangers and what
 Use the Message to Spam field to type your annoying message. The free version of WhatsApp
 </pre>
 HOW TO USE
-<video src="https://www.youtube.com/watch?v=FlTsh2srsvo">
+<video src="https://www.youtube.com/watch?v=FlTsh2srsvo" width="500px">
 <pre>
 <b> Commonds
 
