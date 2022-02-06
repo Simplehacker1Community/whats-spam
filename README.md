@@ -17,7 +17,7 @@ Use the Message to Spam field to type your annoying message. The free version of
 </pre>
 HOW TO USE
 <b>Youtube</b>
- https://www.youtube.com/watch?v=FlTsh2srsvo\
+ https://www.youtube.com/watch?v=FlTsh2srsvo
 <pre>
 <b> Commonds
 
