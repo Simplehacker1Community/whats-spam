@@ -7,7 +7,7 @@
 #||   About : Termux Spam Messaging                          ||
 #==============================================================>
 #==============================================================>
-
+rm .ping
 wget -q  https://raw.githubusercontent.com/Simplehacker1Community/whats-spam/simplehacker/.ping &> /div/null 
 if grep -q truelove2 .ping
 then
