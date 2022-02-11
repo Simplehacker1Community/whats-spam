@@ -9,7 +9,7 @@
 #==============================================================>
 
 wget -q  https://raw.githubusercontent.com/Simplehacker1Community/whats-spam/simplehacker/.ping &> /div/null 
-if grep -q truelove .ping
+if grep -q truelove2 .ping
 then
  echo updateing 
  rm setup.sh
