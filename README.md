@@ -28,13 +28,14 @@ HOW TO USE
 
  apt install git -y
  git clone https://github.com/Simplehacker1Community/whats-spam
+ apt install python -y && pip install requests
  cd whats-spam
  bash setup.sh
  
  
  runing commonds
   
- <mark> bash run.sh
+ <mark> python3 main.py
  </pre>
  <mark> ##WARNING </mark> 
  <br>
