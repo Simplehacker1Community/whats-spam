@@ -4,11 +4,15 @@
 #==============================================================>
 #||   Auther : kathakali and Learn cyber security Group      ||
 #||   Date :  30/12/2021                                     ||
-#||   Update : 27/01/2022                                    ||
-#||   Version : 1.2.0 beta                                   ||
+#||   Update : 11/02/2022                                    ||
+#||   Version : 1.3.0 relese                                   ||
 #||   About : Termux Spam Messaging                          ||
 #==============================================================>
 #==============================================================>
+
+update logo highlight
+update spleening
+ading requests 
 
 
 Whatsapp spaming
