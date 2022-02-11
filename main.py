@@ -106,6 +106,7 @@ def update():
 def menu():
     print("\033[31m Join My telegram for lasted update")
     print("https://t.me/sm02present")
+    print("Opening Telegram Please wait ")
     os.system(f"xdg-open https://t.me/sm02present")
     print("""
     please choice a no\n
@@ -115,7 +116,7 @@ def menu():
     4. Update
     5. exit
     """)
-    sm02 = int(input(" Enter a No : "))
+    sm02 = input(" Enter a No : ")
     if(sm02==1):
         love()
     elif(sm02==2):
@@ -129,7 +130,7 @@ def menu():
         exit
     else:
         print(" Wrong input \n")
-        return menu
+        menu()
 
 if __name__=="__main__":
     print(random.choice(mylogos))
