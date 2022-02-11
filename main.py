@@ -106,8 +106,7 @@ def update():
 def menu():
     print("\033[31m Join My telegram for lasted update")
     print("https://t.me/sm02present")
-    print("Opening Telegram Please wait ")
-    os.system(f"xdg-open https://t.me/sm02present")
+   
     print("""
     please choice a no\n
     1. Whatsapp love text sending
@@ -117,15 +116,15 @@ def menu():
     5. exit
     """)
     sm02 = input(" Enter a No : ")
-    if(sm02==1):
+    if(sm02=="1"):
         love()
-    elif(sm02==2):
+    elif(sm02=="2"):
         kathakali()
-    elif(sm02==3):
+    elif(sm02=="3"):
         auther()
-    elif(sm02==4):
+    elif(sm02=="4"):
         update()
-    elif(sm02==5):
+    elif(sm02=="5"):
         print("  Thanks for using my tool")
         exit
     else:
@@ -134,5 +133,7 @@ def menu():
 
 if __name__=="__main__":
     print(random.choice(mylogos))
+    print("Opening Telegram Please wait ")
+    os.system(f"xdg-open https://t.me/sm02present")
     menu()
 
