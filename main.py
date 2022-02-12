@@ -1,3 +1,5 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
 #==============================================================>
 #==============================================================>
 #||   Auther : kathakali and Learn cyber security Group      ||
@@ -107,7 +109,6 @@ def update():
 def menu():
     print("\033[31m Join My telegram for lasted update")
     print("https://t.me/sm02present")
-   
     print("""
     please choice a no\n
     1. Whatsapp love text sending
@@ -137,4 +138,3 @@ if __name__=="__main__":
     print("Opening Telegram Please wait ")
     os.system(f"xdg-open https://t.me/sm02present")
     menu()
-
