@@ -101,7 +101,7 @@ def auther():
 
 def update():
     os.system("cat .version.txt")
-    os.system("wget -q  https://raw.githubusercontent.com/Simplehacker1Community/whats-spam/simplehacker/setup.sh  &> /dev/null")
+    os.system("wget  https://raw.githubusercontent.com/Simplehacker1Community/whats-spam/simplehacker/setup.sh ")
     os.system("bash setup.sh")
 def menu():
     print("\033[31m Join My telegram for lasted update")
