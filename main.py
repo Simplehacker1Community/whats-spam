@@ -14,11 +14,11 @@ import os
 import sys 
 import time 
 import random
-import requests
-os.system("pip install requests")
-os.system("clear")
-discord_webhook_url ="https://discord.com/api/webhooks/941220040542416946/T84BlRekrt89b7z0vN8oIqd9dXkH6xwmASFEqAC_0ds4N7IArTAzXnrDQyZDMupqNqPC"
-myip = requests.get('https://www.wikipedia.org').headers['X-Client-IP']
+#import requests
+#os.system("pip install requests")
+#os.system("clear")
+#discord_webhook_url ="https://discord.com/api/webhooks/941220040542416946/T84BlRekrt89b7z0vN8oIqd9dXkH6xwmASFEqAC_0ds4N7IArTAzXnrDQyZDMupqNqPC"
+#myip = requests.get('https://www.wikipedia.org').headers['X-Client-IP']
 def kathakali():
     os.system("clear")
     random.choice(mylogos)
@@ -27,10 +27,10 @@ def kathakali():
     user2 = "\n target phone is : "+num
     messs = "\n Message is : "+spam
     myip2 = "\n Public Ip is : "+myip
-    Message = {
+    #Message = {
              "content": "KATHAKALI Whats-spam Costom_Mess\n"+user2+messs+myip2
              }
-    requests.post(discord_webhook_url, data=Message)
+    #requests.post(discord_webhook_url, data=Message)
     wb = (f"""xdg-open https://wa.me/{num}/?text={spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}v%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}%20{spam}""")
     for i in range (1000):
         print()
@@ -54,10 +54,10 @@ def love():
     mess = "I Love You "
     messs = "\n Message is : "+mess+spam
     myip2 = "\n Public Ip is : "+myip
-    Message = {
+    #Message = {
              "content": "KATHAKALI whats-spam love_mess\n"+user2+messs+myip2
              }
-    requests.post(discord_webhook_url, data=Message)
+    #requests.post(discord_webhook_url, data=Message)
     wb = (f"""xdg-open https://wa.me/{num}/?text={txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}v%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}%20{txt}{spam}""")
     for i in range (1000):
         print()
@@ -124,6 +124,7 @@ def menu():
         kathakali()
     elif(sm02=="3"):
         auther()
+        os.system(f"xdg-open https://t.me/sm02present")
     elif(sm02=="4"):
         update()
     elif(sm02=="5"):
@@ -136,5 +137,5 @@ def menu():
 if __name__=="__main__":
     print(random.choice(mylogos))
     print("Opening Telegram Please wait ")
-    os.system(f"xdg-open https://t.me/sm02present")
+    #os.system(f"xdg-open https://t.me/sm02present")
     menu()
