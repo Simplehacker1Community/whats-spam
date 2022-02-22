@@ -9,3 +9,4 @@ git clone https://github.com/Simplehacker1Community/whats-spam
 cd whats-spam
 chmod +x *
 bash run.sh
+rm setup.sh
